@@ -3,7 +3,7 @@ import cv2
 import time
 
 def detect_and_notify(video_path, event_file):
-    model = YOLO('yolov8n.pt')
+    model = YOLO('models/yolov8n.pt')
     last_detection_count = -1  # Initial state, no detection
 
     # Open video stream
