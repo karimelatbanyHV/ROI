@@ -7,7 +7,7 @@ def mouse_callback(event, x, y, flags, param):
         # Store the point coordinates
         points.append((x, y))
         print(f"Point selected: {(x, y)}")
-
+#get the file and from it is extension and from it detect if video or image
 def select_rois(file_path):
     global points
     points = []
